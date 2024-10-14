@@ -1,0 +1,44 @@
+.certif {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+.certifications-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.certifications-list li {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .certifications-list h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .certifications-list p {
+    margin: 2px 0;
+  }
+  
+  .certificate-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .certifications-list {
+      width: 50%;
+      margin: 0 auto;
+    }
+    
+    .certifications-list li {
+      width: 100%;
+    }
+  }
