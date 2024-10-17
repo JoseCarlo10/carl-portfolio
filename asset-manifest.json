@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/carl-portfolio/static/css/main.55485c96.css",
+    "main.css": "/carl-portfolio/static/css/main.c9c919a3.css",
     "main.js": "/carl-portfolio/static/js/main.6e1ee3b3.js",
     "static/js/453.e79ecade.chunk.js": "/carl-portfolio/static/js/453.e79ecade.chunk.js",
     "static/media/Avila_JoseCarlo_ArtFinal.jpg": "/carl-portfolio/static/media/Avila_JoseCarlo_ArtFinal.2c770db80c1bce67c288.jpg",
@@ -27,12 +27,12 @@
     "static/media/Delete Activity.jpg": "/carl-portfolio/static/media/Delete Activity.4a75ed67c0739703885e.jpg",
     "static/media/Add Activity.jpg": "/carl-portfolio/static/media/Add Activity.4b90484eb1a48baa1de2.jpg",
     "index.html": "/carl-portfolio/index.html",
-    "main.55485c96.css.map": "/carl-portfolio/static/css/main.55485c96.css.map",
+    "main.c9c919a3.css.map": "/carl-portfolio/static/css/main.c9c919a3.css.map",
     "main.6e1ee3b3.js.map": "/carl-portfolio/static/js/main.6e1ee3b3.js.map",
     "453.e79ecade.chunk.js.map": "/carl-portfolio/static/js/453.e79ecade.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55485c96.css",
+    "static/css/main.c9c919a3.css",
     "static/js/main.6e1ee3b3.js"
   ]
 }
