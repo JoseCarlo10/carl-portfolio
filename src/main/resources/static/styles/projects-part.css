@@ -1,0 +1,97 @@
+#projects {
+    background-color: transparent;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: rgb(34, 34, 34);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    flex: 1 1 200px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    background-color: #555;
+}
+
+.project-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background: rgb(34, 34, 34);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: red;
+}
+
+.media-container {
+    position: relative;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.media-container img,
+.media-container video {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    #projects {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #projects {
+        width: 100%;
+        max-width: 100%;
+    }
+}
