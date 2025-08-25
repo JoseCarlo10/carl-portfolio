@@ -74,7 +74,8 @@ const projectData = {
         title: "Gir from Invader Zim [Blender]",
         description: "A personal project of mine made in Blender.",
         date: "June 15, 2025",
-        media: ["/assets/Personal Projects/Gir/Gir in a room.png"]
+        media: ["/assets/Personal Projects/Gir/Gir.glb"],
+        type: "3d"
     },
     personal4: {
         title: "Plane Model [Blender]",
@@ -88,7 +89,7 @@ const projectData = {
         date: "August 22, 2025",
         model: "/assets/Personal Projects/Jack Spicer/Jack Spicer.glb",
         type: "3d"
-}
+    }
 };
 
 let currentProject = null;
