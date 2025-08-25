@@ -74,7 +74,7 @@ const projectData = {
         title: "Gir from Invader Zim [Blender]",
         description: "A personal project of mine made in Blender.",
         date: "June 15, 2025",
-        media: ["/assets/Personal Projects/Gir/Gir.glb"],
+        model: ["/assets/Personal Projects/Gir/Gir.glb"],
         type: "3d"
     },
     personal4: {
