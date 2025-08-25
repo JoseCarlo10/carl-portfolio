@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Carlo Avila</title>
+    <link rel="stylesheet" href="styles/main-part.css">
+    <link rel="stylesheet" href="styles/about-part.css">
+    <link rel="stylesheet" href="styles/projects-part.css">
+    <link rel="stylesheet" href="styles/certifications-part.css">
+    <link rel="stylesheet" href="styles/contacts-part.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">CARL</div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navbar">
+            <a onclick="scrollToSection('about')">About</a>
+            <a onclick="scrollToSection('projects')">Projects</a>
+            <a onclick="scrollToSection('certifications')">Certifications</a>
+            <a onclick="scrollToSection('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="bubbles">
+            <span style="--i:11;"></span>   <span style="--i:12;"></span>
+            <span style="--i:24;"></span>   <span style="--i:10;"></span>
+            <span style="--i:14;"></span>   <span style="--i:23;"></span>
+            <span style="--i:18;"></span>   <span style="--i:16;"></span>
+            <span style="--i:19;"></span>   <span style="--i:20;"></span>
+            <span style="--i:22;"></span>   <span style="--i:25;"></span>
+            <span style="--i:18;"></span>   <span style="--i:21;"></span>
+            <span style="--i:15;"></span>   <span style="--i:13;"></span>
+            <span style="--i:26;"></span>   <span style="--i:17;"></span>
+            <span style="--i:13;"></span>   <span style="--i:28;"></span>
+            <span style="--i:11;"></span>   <span style="--i:12;"></span>
+            <span style="--i:24;"></span>   <span style="--i:10;"></span>
+            <span style="--i:14;"></span>   <span style="--i:23;"></span>
+            <span style="--i:18;"></span>   <span style="--i:16;"></span>
+            <span style="--i:19;"></span>   <span style="--i:20;"></span>
+            <span style="--i:22;"></span>   <span style="--i:25;"></span>
+            <span style="--i:18;"></span>   <span style="--i:21;"></span>
+            <span style="--i:15;"></span>   <span style="--i:13;"></span>
+            <span style="--i:26;"></span>   <span style="--i:17;"></span>
+            <span style="--i:13;"></span>   <span style="--i:28;"></span>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-left">
+                <h2>Hello, I'm</h2>
+                <h2>Jose Carlo M. Avila</h2>
+                <img src="/assets/Profile.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+            <div class="about-right">
+                <div class="summary-block">
+                    <p>
+                        I am a recent Bachelor of Science in Computer Science graduate, honored to have graduated cum laude. 
+                        My primary expertise lies in Java, which I have extensively used for desktop application development. 
+                        Additionally, I have hands‑on experience with Python and C#, with a basic level of proficiency in both. 
+                        I am also proficient in web development, with experience in HTML, CSS, JavaScript, and PHP, as well as in 
+                        ReactJS for building modern, interactive interfaces. Moreover, I have worked with WordPress for creating 
+                        and customizing websites.
+                    </p>
+                    <br>
+                    <p>
+                        Beyond programming, I am continuously learning 3D modeling using Blender and have developed a strong interest 
+                        in game development designs. I have also been honing my analytical skills through data analysis projects and 
+                        am proficient in utilizing Microsoft Office tools to enhance productivity and manage projects effectively. 
+                        In addition, I have some experience with Aseprite, where I practice creating and animating pixel art as I 
+                        continue to build my skills in this area.
+                    </p>
+                    
+                    <center><a href="/assets/Curriculum Vitae - Avila, Jose Carlo M..pdf" download class="cv-button">Download CV</a></center>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-section">
+            <center><h3>MY SKILLS</h3></center>
+            <ul>
+                <li><strong>Hardware Maintenance:</strong> Certified in Computer System Servicing (NCII) with hands-on experience in hardware diagnostics, troubleshooting, repair, and maintenance of computer systems and peripherals.</li>
+                <li><strong>Programming Languages:</strong> Java, C#</li>
+                <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, ReactJS</li>
+                <li><strong>Software/Tools:</strong> Eclipse IDE, Visual Studio Code, Microsoft Office, Blender, Godot, Aseprite</li>
+                <li><strong>Database Management:</strong> MySQL, MongoDB</li>
+                <li><strong>Game Development:</strong> Basic knowledge of Godot and game design concepts</li>
+                <li><strong>Data Analysis:</strong> Analytical skills with experience in data analysis projects using Anaconda</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <center><h2>PROJECTS</h2></center>
+        <div class="project-grid">
+            <div class="project-card" onclick="openProject('project1')">DICT Archive System</div>
+            <div class="project-card" onclick="openProject('project2')">DICT Attendance System</div>
+            <div class="project-card" onclick="openProject('project3')">Water Demand Forecasting System</div>
+            <div class="project-card" onclick="openProject('project4')">RPW Generator</div>
+            <div class="project-card" onclick="openProject('project5')">JC's SpriteShop Project</div>
+        </div>
+
+        <center><h2 style="margin-top: 3rem;">ARTWORKS</h2></center>
+        <div class="project-grid">
+            <div class="project-card" onclick="openProject('personal2')">Birds in the Basket (Original) [PhotoShop]</div>
+            <div class="project-card" onclick="openProject('personal1')">Pixel Knight [Aseprite]</div>
+            <div class="project-card" onclick="openProject('personal3')">Gir from Invader Zim [Blender]</div>
+            <div class="project-card" onclick="openProject('personal4')">Plane Model [Blender]</div>
+            <div class="project-card" onclick="openProject('personal5')">Jack Spicer from Xiaolin Showdown [Blender]</div>
+        </div>
+
+        <!-- Popup panel -->
+        <div class="project-popup" id="projectPopup">
+            <div class="popup-content">
+                <button onclick="closeProject()" class="close-btn">✖</button>
+                <h3 id="popupTitle">Title</h3>
+                <p id="popupDescription">Description</p>
+                <p><strong>Date Published:</strong> <span id="popupDate">2025</span></p>
+                <div class="media-container" id="popupMedia">
+                    <img id="popupImage" src="" alt="Project Image">
+                    <video id="popupVideo" controls style="display: none;">
+                        <source id="popupVideoSrc" src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="nav-buttons">
+                        <span onclick="prevMedia()">◀</span>
+                        <span onclick="nextMedia()">▶</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="certModal" class="cert-image-modal">
+        <span class="cert-close-btn">&times;</span>
+        <img class="cert-modal-content" id="certModalImage">
+    </div>
+
+    <section id="certifications">
+        <center><h2>CERTIFICATIONS</h2></center>
+
+        <div class="cert-grid">
+
+            <!-- Godot Certification -->
+            <div class="cert-box">
+            <h3>Godot Game Development Certification</h3>
+            <p>Issued by: DICT</p>
+            <p>Date Received: February 13, 2024</p>
+            <div class="cert-images excel-cert">
+                <div data-iframe-width="150">
+                    <img src="assets/Godot Certificate/Discovering Godot Part 1.png" alt="Godot Cert 1">
+                    <img src="assets/Godot Certificate/Discovering Godot Part 2.png" alt="Godot Cert 2">
+                </div>
+            </div>
+            </div>
+
+            <!-- CSS NCII -->
+            <div class="cert-box">
+            <h3>Computer System Servicing NCII</h3>
+            <p>Issued by: TESDA</p>
+            <p>Date Received: December 20, 2019</p>
+            <div class="cert-images">
+                <img src="assets/NCII_certificate.png" alt="CSS NCII Cert"> <!-- Fixed missing image path -->
+            </div>
+            </div>
+
+            <!-- Excel Certification -->
+            <!-- Excel -->
+            <div class="cert-box">
+            <h3>Microsoft Office Specialist: Excel Certification</h3>
+            <p>Issued by: Certiport</p>
+            <p>Date Received: September 29, 2024</p>
+            <div class="cert-images">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8d42cf59-45ab-48a7-802b-46a253e61772" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+            </div>
+
+
+            <!-- Civil Service -->
+            <div class="cert-box">
+            <h3>Civil Service Eligibility</h3>
+            <p>Issued by: Civil Service Commission</p>
+            <p>Date Received: October 21, 2024</p>
+            <div class="cert-images">
+                <img src="assets/CSC.png" alt="Civil Service Cert">
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const modal = document.getElementById("certModal");
+            const modalImg = document.getElementById("certModalImage");
+            const closeBtn = document.querySelector(".cert-close-btn");
+
+            // When an image inside .cert-images is clicked
+            document.querySelectorAll(".cert-images img").forEach(img => {
+                img.addEventListener("click", () => {
+                    modal.style.display = "block";
+                    modalImg.src = img.src;
+                });
+            });
+
+            // Close button
+            closeBtn.addEventListener("click", () => {
+                modal.style.display = "none";
+            });
+
+            // Close modal if background is clicked
+            modal.addEventListener("click", (e) => {
+                if (e.target === modal) {
+                    modal.style.display = "none";
+                }
+            });
+        });
+    </script>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> josecarlomanlagnitavila10@gmail.com</p>
+            <p><strong>Phone:</strong> (+63) 9277676675</p>
+            <p><strong>Location (Permanent):</strong> Catanduanes, Philippines</p>
+            <p><strong>Location (Current):</strong> Mandaluyong City, Manila</p>
+        </div>
+
+        <center>
+        <div class="connect-label">Connect with me on Social Media</div>
+        </center>
+        <div class="social-buttons">
+            <a href="https://www.linkedin.com/in/jose-carlo-avila-27526b267/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/JoseCarlo10" target="_blank" class="github">
+            <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+
+        <center><div class="email-label">Send me an Email</div></center>
+
+        <!-- modify this form HTML and place wherever you want your form -->
+
+        <form class="email-form" id="contactForm">
+    <label for="name">Your name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Your message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <div class="send-button-container">
+        <button type="submit" class="send-btn">Send</button>
+    </div>
+</form>
+
+<div id="success-popup" class="popup" style="display:none;">
+    <p>✅ Your message has been sent successfully!</p>
+    <button onclick="closePopup()">OK</button>
+</div>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Stop default redirect
+
+    const form = event.target;
+    const formData = new FormData(form);
+
+    fetch("https://formspree.io/f/xldlovbo", {
+        method: "POST",
+        body: formData,
+        headers: { "Accept": "application/json" }
+    })
+    .then(response => {
+        if (response.ok) {
+            document.getElementById("success-popup").style.display = "block";
+            form.reset();
+        } else {
+            alert("❌ There was a problem sending your message.");
+        }
+    })
+    .catch(error => {
+        alert("❌ Error: " + error.message);
+    });
+});
+
+function closePopup() {
+    document.getElementById("success-popup").style.display = "none";
+}
+</script>
+
+
+
+        </section>
+
+        <div id="success-popup" class="popup" style="display:none;">
+            <p>✅ Your message has been sent successfully!</p>
+            <button onclick="closePopup()">OK</button>
+        </div>
+
+    <script type="text/javascript" async src="scripts/functions.js" ></script>
+    <script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+</body>
+</html>

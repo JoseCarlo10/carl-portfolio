@@ -1,0 +1,177 @@
+/* Contact Styles */
+
+#contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #282c34;
+  /* border: 1px solid #ccc; */
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.contact-info {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.connect-label, .email-label {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  gap: 16px; /* space between buttons */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.social-buttons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  background-color: #0077b5; /* LinkedIn blue */
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.social-buttons a.github {
+  background-color: #333;
+}
+
+.social-buttons a:hover {
+  opacity: 0.9;
+}
+
+.email-form {
+  margin-top: 1rem;
+}
+
+.email-form label {
+  display: block;
+  margin: 0.6rem 0 0.3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.email-form input,
+.email-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.email-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.email-form button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #0052cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.email-form button:hover {
+  background-color: #003d99;
+}
+
+.send-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.send-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Popup background overlay */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    z-index: 1000;
+    max-width: 350px;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Popup text */
+.popup p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Popup button */
+.popup button {
+    background-color: #4cafef;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.popup button:hover {
+    background-color: #3a9edb;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -48%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
